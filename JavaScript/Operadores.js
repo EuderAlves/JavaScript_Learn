@@ -68,7 +68,7 @@ NOT "!"
 OR "||"
 */
 
-
+/*
 //Switch
 
 let a = 5, b = 3;
@@ -88,4 +88,34 @@ switch (operador) {
         break;
     default:
         console.log('operador invalido');
+}
+ */
+/*
+//While = repetição
+let i = 0;
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+*/
+/* 
+ // existe a possibilidade de fazer assim para fazer pelo menos uma vez 
+
+ let p = 0;
+
+do {
+    console.log(p);
+    p++;
+
+}
+while (p<7);
+
+*/
+
+//for 
+
+let i;
+for (i = 10; i > 0; i--) {
+    if (i % 2 == 0) console.log( `O numero ${i} é par`);
+
 }
