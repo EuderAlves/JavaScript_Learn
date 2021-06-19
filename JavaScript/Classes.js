@@ -10,7 +10,7 @@ class Usuario{
     }
 }
 
-let usuario = Usuario('João', 35);
+let usuario = new Usuario('João', 35);
 
 console.log(usuario);
 console.log(usuario.maiorIdade());
