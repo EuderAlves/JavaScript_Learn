@@ -14,8 +14,23 @@ mensagem1(`Euder`);
 soma(5, 10);
 */
 
-function soma (a, b){
+function soma (a, b)
+//abaixo está com valores padrão
+//function soma (a=0, b=0)
+{
     return (a + b);
 }
 let total = soma(10, 5);
 console.log(3, total);
+
+//Atribuir a função a uma variavel
+
+let divide = function (a, b){
+    return (a / b);
+}
+
+console.log(4, divide(10, 2));
+
+
+
+
