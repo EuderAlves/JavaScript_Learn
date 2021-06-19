@@ -21,3 +21,5 @@ let joao = criaUsuario (`João`, 35);
 let maria = criaUsuario("Maria", 24);
 
 console.log(2, joao, 3, maria);
+
+
