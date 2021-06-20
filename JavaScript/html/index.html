@@ -7,17 +7,21 @@
     <title>Document</title>
     <script>
         function ola(){
+            //confirm abre um dialogo para confirmar ou não 
             let confirma = confirm("Confirma a operação?")
             if (confirma)
             {
+            //prompt abre um dialogo apra digitar algo
             let nome = prompt("Qual é o seu nome?", 
             "Fulando de tal");
+            //alert abre um dialogo com algum alerta
             alert(`Ola ${nome}!`);
             }
             else alert("Cancelado!");
         }
     </script>
 </head>
+<!--onload inicia o comando após a pagina carregar -->
 <body onload="ola()">
 <h1>Teste de pagina</h1>
 </body>
