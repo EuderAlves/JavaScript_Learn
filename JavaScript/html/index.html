@@ -18,11 +18,23 @@
             alert(`Ola ${nome}!`);
             }
             else alert("Cancelado!");
-        }
+        };
+        function olaName(){
+            alert(`Ola Sr.`);
+        };
+        function entrou(){
+            alert("Olá eu funciono!");
+        };
+        function saiu(){
+            alert("Tchau eu funciono mesmo!");
+        };
     </script>
 </head>
 <!--onload inicia o comando após a pagina carregar -->
 <body onload="ola()">
 <h1>Teste de pagina</h1>
+<!--onclik é um evento de click geralmente usado em botões-->
+<p><button onclick="olaName()">ClickHere</button></p>
+<h2 onmouseover="entrou()" onmouseout="saiu()">ONMOUSEOVER AND ONMOUSEOUT</h2>
 </body>
 </html>
