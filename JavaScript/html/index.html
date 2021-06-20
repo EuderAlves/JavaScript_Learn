@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function ola(){
+            let confirma = confirm("Confirma a operação?")
+            if (confirma)
+            {
+            let nome = prompt("Qual é o seu nome?", 
+            "Fulando de tal");
+            alert(`Ola ${nome}!`);
+            }
+            else alert("Cancelado!");
+        }
+    </script>
+</head>
+<body onload="ola()">
+<h1>Teste de pagina</h1>
+</body>
+</html>
